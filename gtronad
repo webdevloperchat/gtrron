@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gtron - Minecraft Creator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 5px solid #ff0000;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+        .video-container iframe,
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .social-links {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .social-links a.youtube {
+            background-color: #ff0000;
+        }
+        .social-links a.discord {
+            background-color: #7289da;
+        }
+        .social-links a:hover {
+            background-color: #333;
+        }
+        .details {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .details h2 {
+            color: #333;
+            font-size: 28px;
+            margin-top: 0;
+        }
+        .details p {
+            margin-bottom: 10px;
+        }
+        .details ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        .details ul li {
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gtron - Minecraft Creator</h1>
+    </header>
+    <div class="container">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=UUuWe2xeRvZB2-aVYuyR1bng" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <iframe width="560" height="315" src="https://youtu.be/7NxM31yzTnk?si=LnoHZ86uuIrK8LTO" frameborder="0" allowfullscreen></iframe>
+        <div class="social-links">
+            <a href="http://www.youtube.com/@gtron9528" target="_blank" class="youtube">YouTube</a>
+            <a href="https://discord.com/invite/m88q9ddDw5" target="_blank" class="discord">Discord</a>
+        </div>
+        <div class="details">
+            <h2>Details</h2>
+            <p><strong>Help me build a gaming computer</strong></p>
+            <p><strong>Mobile Games:</strong></p>
+            <ul>
+                <li>Minecraft Pocket Edition [ Builder + Server Dev ]</li>
+                <li>Subway Surf [ 7,361,180 score ]</li>
+                <li>Codm [ Legendary rank ]</li>
+                <li>Crome dinosour [ loading ... ]</li>
+                <li>Plantvszombies</li>
+                <li>Scribble</li>
+                <li>Roblox</li>
+                <li>Raft survival</li>
+            </ul>
+            <p><strong>Subscriber Levels:</strong></p>
+            <ul>
+                <li>🥴 Normal people - Read discription</li>
+                <li>😎 Legends - Watch videos and subscribe</li>
+                <li>👑 Ultra legend Pro Max - Already subscribed</li>
+            </ul>
+        </div>
+        <div class="contact-info">
+            <p>Contact I'd: <a href="mailto:gtron9528@gmail.com">gtron9528@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
